@@ -21,6 +21,7 @@ gem "sprockets-es6"
 gem "suspenders"
 gem "title"
 gem "uglifier"
+gem 'turbolinks', '~> 5.0'
 
 # Active Admin
 gem 'activeadmin', github: 'activeadmin'
@@ -28,6 +29,9 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'ransack',             github: 'activerecord-hackery/ransack'
 gem 'draper',              '> 3.x'
+
+gem 'devise'
+gem 'cancan' # or cancancan
 
 
 group :development do
