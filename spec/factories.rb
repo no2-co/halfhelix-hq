@@ -1,4 +1,14 @@
 FactoryGirl.define do
+  factory :organization do
+    name "MyString"
+    street_1 "MyString"
+    street_2 "MyString"
+    city "MyString"
+    state "MyString"
+    country "MyString"
+    zip_code "MyString"
+    business_phone "MyString"
+  end
   factory :project do
     title "MyString"
     description "MyText"
