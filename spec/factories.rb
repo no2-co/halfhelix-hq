@@ -26,6 +26,6 @@ FactoryGirl.define do
     email "MyString"
   end
   factory :admin_user do
-    
+
   end
 end
